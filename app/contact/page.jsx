@@ -11,7 +11,7 @@ export default function Page2() {
           <p>Envoyez nous un message</p>
         </div>
         <div className={styles.container_form}>
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" netlify>
             <input
               className={styles.input}
               type="text"
