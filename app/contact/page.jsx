@@ -11,7 +11,7 @@ export default function Page2() {
           <p>Envoyez nous un message</p>
         </div>
         <div className={styles.container_form}>
-          <div className={styles.container_input}>
+          <form name="contact" method="POST" data-netlify="true">
             <input
               className={styles.input}
               type="text"
@@ -36,18 +36,15 @@ export default function Page2() {
               placeholder="Sujet"
               name="subject"
             />
-          </div>
-          <div className={styles.container_textarea}>
+
             <textarea
               className={styles.textarea}
               type="text"
               placeholder="Message"
               name="message"
             />
-          </div>
-          <div className={styles.container_button}>
             <button className={styles.button}>Envoyer</button>
-          </div>
+          </form>
         </div>
       </div>
       <Footer />
