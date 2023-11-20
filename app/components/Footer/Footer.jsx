@@ -4,6 +4,7 @@ import instagram from "../../assets/instagram.png";
 import facebook from "../../assets/facebook.png";
 import twitter from "../../assets/twitter.png";
 import Image from "next/image";
+import Link from "next/link";
 export default function Footer() {
   return (
     <main className={styles.main}>
@@ -22,11 +23,11 @@ export default function Footer() {
       <div className={styles.container_links}>
         <div className={styles.links}>
           <p>Navigation</p>
-          <p>Nos service</p>
-          <p>A propos</p>
-          <p>Galeries</p>
-          <p>Contact</p>
-          <p>Mentions Légales</p>
+          <Link href="/">Home</Link>
+          <Link href="/nos_service">Nos services</Link>
+          <Link href="/a_propos">À Propos</Link>
+          <Link href="/galerie">Galerie</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </main>

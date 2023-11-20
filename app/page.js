@@ -10,6 +10,7 @@ import service3 from "../app/assets/toiture.png";
 import service4 from "../app/assets/protection.png";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
+import Link from "next/link";
 // Import Swiper styles
 
 // Import Swiper React components
@@ -67,7 +68,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <button>Découvrir Nos Services</button>
+        <Link href="/nos_service">Découvrir Nos Services</Link>
       </div>
       <div className={styles.container_ville}>
         <p className={styles.title}>Notre Intervention dans Votre Ville</p>
@@ -85,7 +86,7 @@ export default function Home() {
             toitures
           </p>
           <Slider />
-          <button>Explorer Nos Réalisations</button>
+          <Link href="/galerie">Explorer Nos Réalisations</Link>
         </div>
       </div>
       <Footer />
