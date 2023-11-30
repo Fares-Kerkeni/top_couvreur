@@ -8,6 +8,7 @@ import service1 from "../app/assets/eau.png";
 import service2 from "../app/assets/feuille.png";
 import service3 from "../app/assets/toiture.png";
 import service4 from "../app/assets/protection.png";
+import acc from "../app/assets/image_ac/acceuil.jpg";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
@@ -52,7 +53,7 @@ export default function Home() {
         </div>
         <div className={`${styles.container2_service} ${styles.rowContainer}`}>
           <div className={styles.services}>
-            <Image src={service1} alt="service1" width={77} height={77} />
+            <Image src={acc} alt="service1" width={77} height={77} />
             <p className={styles.title_service}>Rénovation de Toiture</p>
             <p className={styles.description}>
               Revitalisez votre maison avec notre expertise en rénovation de
