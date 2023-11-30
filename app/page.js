@@ -53,7 +53,7 @@ export default function Home() {
         </div>
         <div className={`${styles.container2_service} ${styles.rowContainer}`}>
           <div className={styles.services}>
-            <Image src={acc} alt="service1" width={77} height={77} />
+            <Image src={service1} alt="service1" width={77} height={77} />
             <p className={styles.title_service}>Rénovation de Toiture</p>
             <p className={styles.description}>
               Revitalisez votre maison avec notre expertise en rénovation de

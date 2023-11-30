@@ -3,11 +3,11 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import header_home from "../../assets/header_home.png";
-import toiture_apres from "../../assets/toiture_apres.jpg";
-import toiture_avant from "../../assets/toiture_avant.jpg";
-import toiture1 from "../../assets/toiture1.jpg";
-import toiture2 from "../../assets/toiture2.jpg";
-import velux from "../../assets/velux.jpg";
+import toiture_apres from "../../assets/image_ac/toiture_apres.jpg";
+import toiture_avant from "../../assets/image_ac/toiture_avant.jpg";
+import toiture1 from "../../assets/image_ac/toiture1.jpg";
+import toiture2 from "../../assets/image_ac/toiture2.jpg";
+import velux from "../../assets/image_ac/velux.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
