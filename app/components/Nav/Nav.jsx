@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./nav.module.scss";
 import Image from "next/image";
 import menu from "../../assets/menu.png";
+import logo from "../../assets/image_ac/Group.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { chagevalue } from "../../store/slice/popupSlice";
 import "aos/dist/aos.css";
@@ -26,7 +27,13 @@ export default function Header() {
     <main className={state ? styles.z_index : styles.main}>
       <div className={styles.nav_desktop}>
         <div className={styles.container_logo}>
-          <p>L</p>
+          <Image
+            src={logo}
+            alt="menu"
+            width={40}
+            height={40}
+            onClick={handlePopup}
+          />
         </div>
         <div className={styles.container_link}>
           <Link href="/">Home</Link>
