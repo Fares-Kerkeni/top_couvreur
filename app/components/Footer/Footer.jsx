@@ -23,7 +23,7 @@ export default function Footer() {
       <div className={styles.container_links}>
         <div className={styles.links}>
           <p>Navigation</p>
-          <Link href="/">Home</Link>
+          <Link href="/">Acceuil</Link>
           <Link href="/nos_service">Nos services</Link>
           <Link href="/a_propos">À Propos</Link>
           <Link href="/galerie">Galerie</Link>

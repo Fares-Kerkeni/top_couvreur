@@ -32,6 +32,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      a {
+        color: white;
+        border-radius: 25px;
+        background-color: #2351a2;
+        padding: 10px 50px;
+        margin-top: 25px;
+      }
       img {
         margin-bottom: 10px;
       }

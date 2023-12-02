@@ -53,7 +53,9 @@ export default function Home() {
         </div>
         <div className={`${styles.container2_service} ${styles.rowContainer}`}>
           <div className={styles.services}>
-            <Image src={service1} alt="service1" width={77} height={77} />
+            <Link href="/galerie">
+              <Image src={service1} alt="service1" width={77} height={77} />
+            </Link>
             <p className={styles.title_service}>Rénovation de Toiture</p>
             <p className={styles.description}>
               Revitalisez votre maison avec notre expertise en rénovation de
@@ -61,7 +63,9 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.services}>
-            <Image src={service2} alt="service1" width={77} height={77} />
+            <Link href="/galerie">
+              <Image src={service2} alt="service1" width={77} height={77} />
+            </Link>
             <p className={styles.title_service}>Réparation de Toiture</p>
             <p className={styles.description}>
               Redonnez vie à votre toit : Notre expertise en réparation pour une

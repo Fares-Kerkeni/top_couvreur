@@ -16,7 +16,7 @@ export default function Page2() {
         <div className={styles.container_texte}>
           <div className={styles.block_text}>
             <p>
-              top couvreur - Votre Artisan Couvreur de Confiance dans le Loiret
+              TOP COUVREUR - Votre Artisan Couvreur de Confiance dans le Loiret
             </p>
             <p>
               Spécialistes de la Couverture, nous vous offrons des services de
@@ -47,7 +47,7 @@ export default function Page2() {
           <div className={styles.block_text}>
             <p>SERVICE DE QUALITÈ </p>
             <p>
-              top couvreur, votre expert en couverture dans le Loiret, se
+              TOP COUVREUR, votre expert en couverture dans le Loiret, se
               consacre à vous offrir des services de qualité depuis 2013.
               Spécialisés dans le domaine de la couverture, nous proposons un
               large éventail de prestations, notamment le ravalement,
@@ -56,7 +56,7 @@ export default function Page2() {
           </div>
           <div className={styles.block_text}>
             <p>
-              top couvreur - Votre Artisan Couvreur de Confiance dans le Loiret
+              TOP COUVREUR - Votre Artisan Couvreur de Confiance dans le Loiret
             </p>
             <p>
               Rénovation partielle, Ce sont des travaux de remise en état d’une

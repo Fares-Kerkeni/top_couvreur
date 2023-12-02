@@ -36,7 +36,7 @@ export default function Header() {
           />
         </div>
         <div className={styles.container_link}>
-          <Link href="/">Home</Link>
+          <Link href="/">Acceuil</Link>
           <Link href="/nos_service">Nos services</Link>
           <Link href="/a_propos">À Propos</Link>
           <Link href="/galerie">Galerie</Link>
