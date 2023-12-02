@@ -10,7 +10,50 @@ export default function Page2() {
         <div className={styles.container_title}>
           <p>Envoyez nous un message</p>
         </div>
-        <div className={styles.container_form}></div>
+        <div className={styles.container_form}>
+          <form name="contact" action="/" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <input
+              className={styles.input}
+              type="text"
+              placeholder="Nom"
+              name="name"
+              for="name"
+            />
+            <input
+              className={styles.input}
+              type="text"
+              placeholder="Email"
+              name="email"
+              for="email"
+            />
+            <input
+              className={styles.input}
+              type="text"
+              placeholder="Téléphone"
+              name="phone"
+              for="phone"
+            />
+            <input
+              className={styles.input}
+              type="text"
+              placeholder="Sujet"
+              name="subject"
+              for="subject"
+            />
+
+            <textarea
+              className={styles.textarea}
+              type="text"
+              placeholder="Message"
+              name="message"
+              for="message"
+            />
+            <button type="submit" className={styles.button}>
+              Envoyer
+            </button>
+          </form>
+        </div>
       </div>
       <Footer />
     </main>
